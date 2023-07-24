@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F2FEBD12A6D83B900CC2F96 /* By Gallery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2FEBD02A6D83B900CC2F96 /* By Gallery.storyboard */; };
+		9FAF994E2A6EE8CF0027194D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAF994D2A6EE8CF0027194D /* Main.storyboard */; };
+		9FAF99502A6EE9410027194D /* By Gallery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAF994F2A6EE9410027194D /* By Gallery.storyboard */; };
 		9FC0A10A2A6A7FC600EA941E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0A1092A6A7FC600EA941E /* AppDelegate.swift */; };
 		9FC0A10C2A6A7FC600EA941E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0A10B2A6A7FC600EA941E /* SceneDelegate.swift */; };
 		9FC0A10E2A6A7FC600EA941E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0A10D2A6A7FC600EA941E /* ViewController.swift */; };
 		9FC0A1112A6A7FC600EA941E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0A10F2A6A7FC600EA941E /* Main.storyboard */; };
 		9FC0A1132A6A7FCB00EA941E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0A1122A6A7FCB00EA941E /* Assets.xcassets */; };
 		9FC0A1162A6A7FCB00EA941E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0A1142A6A7FCB00EA941E /* LaunchScreen.storyboard */; };
+		9FEE32772A6D22740079B7E9 /* ByYear.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE32752A6D22740079B7E9 /* ByYear.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F2FEBD02A6D83B900CC2F96 /* By Gallery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "By Gallery.storyboard"; sourceTree = "<group>"; };
+		9FAF994D2A6EE8CF0027194D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9FAF994F2A6EE9410027194D /* By Gallery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "By Gallery.storyboard"; sourceTree = "<group>"; };
 		9FC0A1062A6A7FC600EA941E /* 克林姆名畫集.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "克林姆名畫集.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC0A1092A6A7FC600EA941E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FC0A10B2A6A7FC600EA941E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		9FC0A1122A6A7FCB00EA941E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FC0A1152A6A7FCB00EA941E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FC0A1172A6A7FCB00EA941E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FEE32762A6D22740079B7E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "克林姆名畫集/Base.lproj/ByYear.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,10 @@
 		9FC0A0FD2A6A7FC500EA941E = {
 			isa = PBXGroup;
 			children = (
+				9F2FEBD02A6D83B900CC2F96 /* By Gallery.storyboard */,
+				9FAF994D2A6EE8CF0027194D /* Main.storyboard */,
+				9FAF994F2A6EE9410027194D /* By Gallery.storyboard */,
+				9FEE32752A6D22740079B7E9 /* ByYear.storyboard */,
 				9FC0A1082A6A7FC600EA941E /* 克林姆名畫集 */,
 				9FC0A1072A6A7FC600EA941E /* Products */,
 			);
@@ -125,7 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEE32772A6D22740079B7E9 /* ByYear.storyboard in Resources */,
+				9F2FEBD12A6D83B900CC2F96 /* By Gallery.storyboard in Resources */,
 				9FC0A1162A6A7FCB00EA941E /* LaunchScreen.storyboard in Resources */,
+				9FAF994E2A6EE8CF0027194D /* Main.storyboard in Resources */,
+				9FAF99502A6EE9410027194D /* By Gallery.storyboard in Resources */,
 				9FC0A1132A6A7FCB00EA941E /* Assets.xcassets in Resources */,
 				9FC0A1112A6A7FC600EA941E /* Main.storyboard in Resources */,
 			);
@@ -161,6 +177,14 @@
 				9FC0A1152A6A7FCB00EA941E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9FEE32752A6D22740079B7E9 /* ByYear.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FEE32762A6D22740079B7E9 /* Base */,
+			);
+			name = ByYear.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -290,11 +314,13 @@
 				DEVELOPMENT_TEAM = T4VR973TMF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "克林姆名畫集/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Klimt Paintings";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +344,13 @@
 				DEVELOPMENT_TEAM = T4VR973TMF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "克林姆名畫集/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Klimt Paintings";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

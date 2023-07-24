@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Gustav_Klimt_-_Allegory_of_Sculpture_-_1889.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
